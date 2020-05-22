@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS jobspecs_db;
+CREATE DATABASE jobspecs_db;
+
+USE jobspecs_db;
+
+CREATE TABLE userInfo(
+  id INT NOT NULL AUTO_INCREMENT,
+  Title VARCHAR(100) NOT NULL,
+  Field VARCHAR(100) NOT NULL,
+  Location VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
+);
