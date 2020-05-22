@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Blaine-bikes/Dream_Job/issues"
   },
-  "homepage": "https://github.com/Blaine-bikes/Dream_Job#readme"
+  "homepage": "https://github.com/Blaine-bikes/Dream_Job#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
 }
