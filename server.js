@@ -37,15 +37,10 @@ app.get("/", (req, res) => res.render("index", {defaultLayout: "landing"}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-<<<<<<< HEAD
-// require('./app/routing/apiRoutes.js')(app);
-// require('./app/routing/htmlRoutes.js')(app);
-=======
 
 // require('./app/routing/apiRoutes.js')(app);
 // require('./app/routing/htmlRoutes.js')(app);
 
->>>>>>> 13e2f987f8bb6fbd2cc7741e06ab1638944b7d3c
 
 app.listen(PORT, function() {
   console.log("App is listening on PORT " + PORT);
