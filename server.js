@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => res.render("index", {defaultLayout: "landing"}));
-
+app.get("/jobs", (req, res) => res.render("jobs", {defaultLayout: "main"}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
